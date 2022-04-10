@@ -1,0 +1,29 @@
+{
+  "name": "authorizer-api",
+  "version": "1.0.0",
+  "description": "Code Challenge - Authorizer",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "nodejs"
+  ],
+  "author": "<>",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-swagger-generator": "^1.1.17",
+    "http-status-codes": "^2.1.4",
+    "lokijs": "^1.5.12",
+    "moment": "^2.29.1",
+    "parse-json": "^5.2.0"
+  },
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "nodemon": "^2.0.12",
+    "request": "^2.88.2",
+    "supertest": "^6.1.6"
+  }
+}
